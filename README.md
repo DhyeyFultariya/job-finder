@@ -1,12 +1,36 @@
-# React + Vite
+# 🚀 Job Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern job search web application that allows users to browse, filter, and save job listings seamlessly.  
+Built with **React + Vite**, **Supabase**, and **Clerk Authentication**, and deployed on **Vercel**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [job-finder-jet-gamma.vercel.app](https://job-finder-jet-gamma.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔑 **User Authentication** (via Clerk) – Secure sign up, login, and session management.  
+- 📂 **Supabase Integration** – Store and fetch job-related data in real time.  
+- 🔍 **Search & Filter** – Quickly find jobs by title, location, or category.  
+- ❤️ **Save Jobs** – Bookmark jobs for future reference.  
+- 📱 **Responsive UI** – Works smoothly across devices.  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + Vite  
+- **Backend & Database:** Supabase  
+- **Authentication:** Clerk  
+- **Deployment:** Vercel  
+
+---
+
+## ⚙️ Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/DhyeyFultariya/job-finder.git
+cd job-finder
