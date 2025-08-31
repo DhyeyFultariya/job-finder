@@ -34,3 +34,25 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/DhyeyFultariya/job-finder.git
 cd job-finder
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Set up environment variables
+Create a `.env` file in the root directory and add your Supabase and Clerk credentials:
+```env
+VITE_SUPABASE_URL=your_supabase_url=
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key=
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key=
+```
+
+### 4. Run the development server
+```bash
+npm run dev
+```
+### 5. Open in your browser
+Visit `http://localhost:5173` to see the application in action.
+---
